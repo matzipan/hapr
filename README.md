@@ -45,7 +45,7 @@ The logic is separated from hardware-dependant code through drivers. These are i
 ### GUI
 ![GUI under Ubuntu](https://raw.githubusercontent.com/matzipan/hapr/master/gui.png)
 
-- running on Python, depends on pyGTK and pySerial.
+- running on Python 2.7, depends on pyGTK and pySerial.
 - Assumptions:
   - You are running on a *nix system and the board's serial terminal can be found at `/dev/ttyACM0`.
   - pyGTK has glade file support.
